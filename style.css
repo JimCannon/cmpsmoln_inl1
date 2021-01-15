@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h4{
+    font-size: 24px;
+}
+
+.navbar{
+    background-color: #E9C46A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.logo{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.logopic{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.navlinks a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navlinks li {
+    list-style: none;
+}
+
+.banner {
+    width: 100%;
+    height: 1050px;
+    background-size: cover;
+    background-image: url(darudesandstorm.jpg);
+}
+
+@media screen and (max-width: 1000px) {
+    h4{
+        font-size: 16px;
+    }
+
+    .navbar{
+        flex-direction: column;
+    }
+
+    .navlinks a{
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .navlinks {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+  }
